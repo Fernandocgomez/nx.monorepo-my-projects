@@ -18,8 +18,8 @@
           "apps/todo-list/src/favicon.ico",
           "apps/todo-list/src/assets"
         ],
-        "styles": ["apps/todo-list/src/styles.scss"],
-        "scripts": []
+        "styles": ["node_modules/bootstrap/dist/css/bootstrap.min.css", "apps/todo-list/src/styles.scss"],
+        "scripts": ["node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"]
       },
       "configurations": {
         "production": {
